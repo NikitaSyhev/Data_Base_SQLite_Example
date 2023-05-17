@@ -9,8 +9,8 @@ Project - ManageNugetPackage
 4) Указать простарноство имен Syste.Data.SQlite
 5) В идеале сделать отдельный класс для базы данных
 6) далее
-string path = @"Data Source = test.db;" - путь к файлу
-создаем переменную var connect - new SQLliteConnection(); - создали объект для подключения базы данных
-connection.Open(); - открыли коннект с базой данных
-ConsoleWriteline($"Создано подключение {connect}.ToString();})
-7)connection.close(); - закрыли
+- string path = @"Data Source = test.db;" - путь к файлу
+- создаем переменную var connect - new SQLliteConnection(); - создали объект для подключения базы данных
+- connection.Open(); - открыли коннект с базой данных
+ - ConsoleWriteline($"Создано подключение {connect}.ToString();})
+- 7)connection.close(); - закрыли
