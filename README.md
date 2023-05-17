@@ -6,3 +6,4 @@
 2) Импорт пакета NuGet
 Project - ManageNugetPackage
 3) В поиске написать System.Data.SQLLite
+4) Указать простарноство имен Syste.Data.SQlite
