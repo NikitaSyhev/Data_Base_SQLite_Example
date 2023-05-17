@@ -22,4 +22,11 @@ Project - ManageNugetPackage
 - ahe INT);"
 
 $"\nINSERT INTO Person(name, age) VALUES ('{name}');
+
+ConsoleWriteline(querry);
+var cmd = new SQLliteConnection(querry, connection);
+cmd.ExecuteNonQuerry();  - это метод, который используется для выполнения команды SQL, которая не возвращает никаких данных, таких как INSERT, UPDATE, DELETE и другие. Он возвращает количество строк, которые были затронуты выполнением команды. 
+cdm.ExecuteScalar(); - - это метод, который используется для выполнения команды SQL, которая возвращает единственное значение (например, количество строк в таблице или значение определенного столбца).
+cmd.ExecuteReader();
+
 - 7)connection.close(); - закрыли
