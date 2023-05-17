@@ -13,4 +13,13 @@ Project - ManageNugetPackage
 - создаем переменную var connect - new SQLliteConnection(); - создали объект для подключения базы данных
 - connection.Open(); - открыли коннект с базой данных
  - ConsoleWriteline($"Создано подключение {connect}.ToString();})
+
+- создадим запрос
+- string name = "FRODO", age = "23";
+- string querry = @"CREATE TABLE IF NOT EXISTS Person (
+- id INTEGER PRIMARY KEY AUTOINCREMENT,
+- name NVARCHAR,
+- ahe INT);"
+
+$"\nINSERT INTO Person(name, age) VALUES ('{name}');
 - 7)connection.close(); - закрыли
